@@ -1,0 +1,2 @@
+# SoPOC
+Springboot - MangoDB Connection
