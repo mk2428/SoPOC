@@ -1,7 +1,6 @@
-# SoPOC
-Springboot-MangoDB
-pre prerequisite: 
-MangoDB – Running local
+# Springboot-MangoDB
+# pre prerequisite: 
+MangoDB – Running locally
 Java 8+
 Maven
 
