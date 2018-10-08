@@ -34,6 +34,9 @@ Steps need to be done in MangoDB for creating user. enable auth and collection.
     "name" : "Mohan"
   }
 ]);
+
+
+
 Springboot Steps with maven:
 •	mvn clean install
 •	mvn spring-boot:run  
