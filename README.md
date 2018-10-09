@@ -36,10 +36,11 @@ Steps need to be done in MangoDB for creating user. enable auth and collection.
 
 
 # Springboot Steps with maven:
-•	mvn clean install
-•	mvn spring-boot:run  
+* mvn clean install
+* mvn spring-boot:run  
 *	Application URL : http://localhost:8080/
-*	Get All Users : 
+*	Get All Users :
+
 GET /so/getUsers/ HTTP/1.1
 Host: localhost:8080
 Cache-Control: no-cache
