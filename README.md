@@ -46,12 +46,14 @@ Cache-Control: no-cache
 Postman-Token: 817f65a1-6651-bd57-0b8d-8ca1ef89a931
 
 * Get Single user by ID :
+
 GET /so/getUser/5bbc75be3538c83362c7de3c HTTP/1.1
 Host: localhost:8080
 Cache-Control: no-cache
 Postman-Token: e10b873f-bb1a-3f7d-948c-fe2e4a9b9d24
 
 * Update User with Id
+
 PUT /so/updateUser/5bbc75be3538c83362c7de3c HTTP/1.1
 Host: localhost:8080
 Content-Type: application/json
@@ -60,6 +62,7 @@ Postman-Token: 90e36e4b-457d-add0-2b3f-00adf4827cd2
 {"name":"relton"}
 
 * Create New User
+
 POST /so/createuser HTTP/1.1
 Host: localhost:8080
 Content-Type: application/json
@@ -68,6 +71,7 @@ Postman-Token: 8c8279c7-77d2-2534-e3e8-7567099e457a
 {"name":"Accion"}
 
 * Delete User by Id
+
 DELETE /so/deleteUser/5bbc8bf01c0fc22d2c8a1233 HTTP/1.1
 Host: localhost:8080
 Content-Type: application/json
